@@ -15,6 +15,10 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-markdown'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
+Bundle 'Gundo'
+Bundle 'ack.vim'
+Bundle 'vim-coffee-script'
+Bundle 'The-NERD-tree'
 
 filetype plugin indent on     " required!
 
@@ -27,14 +31,19 @@ set expandtab
 set number
 set history=1000
 
+set wildmenu
+
 set list
 set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 
 set showmatch
+map ,b :CtrlPBuffer<CR>
+map \| :NERDTreeToggle<CR>
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 " neocomplcache {
         let g:acp_enableAtStartup = 0
-        let g:neocomplcache_enable_at_startup = 1
+        let g:neocomplcache_enable_at_startup = 0
         let g:neocomplcache_enable_camel_case_completion = 1
         let g:neocomplcache_enable_smart_case = 1
         let g:neocomplcache_enable_underbar_completion = 1
