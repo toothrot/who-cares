@@ -16,9 +16,13 @@ Bundle 'tpope/vim-markdown'
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/neosnippet'
 Bundle 'Gundo'
+Bundle 'Markdown'
 Bundle 'ack.vim'
+Bundle 'coffee-check.vim'
 Bundle 'vim-coffee-script'
 Bundle 'The-NERD-tree'
+Bundle 'rails.vim'
+Bundle 'snipmate-snippets'
 
 filetype plugin indent on     " required!
 
