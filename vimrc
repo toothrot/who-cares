@@ -23,6 +23,7 @@ Bundle 'vim-coffee-script'
 Bundle 'The-NERD-tree'
 Bundle 'rails.vim'
 Bundle 'snipmate-snippets'
+Bundle 'scratch.vim'
 
 filetype plugin indent on     " required!
 
