@@ -2,28 +2,30 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'ctrlp.vim'
-Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-markdown'
-Bundle 'Shougo/neocomplcache'
-Bundle 'Shougo/neosnippet'
-Bundle 'Gundo'
-Bundle 'Markdown'
-Bundle 'ack.vim'
-Bundle 'coffee-check.vim'
-Bundle 'vim-coffee-script'
-Bundle 'The-NERD-tree'
-Bundle 'rails.vim'
-Bundle 'snipmate-snippets'
-Bundle 'scratch.vim'
+Plugin 'tpope/vim-fugitive'
+Plugin 'ctrlp.vim'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-markdown'
+Plugin 'Shougo/neocomplcache'
+Plugin 'Shougo/neosnippet'
+Plugin 'Gundo'
+Plugin 'Markdown'
+Plugin 'ack.vim'
+Plugin 'coffee-check.vim'
+Plugin 'vim-coffee-script'
+Plugin 'The-NERD-tree'
+Plugin 'rails.vim'
+Plugin 'snipmate-snippets'
+Plugin 'scratch.vim'
+
+call vundle#end()            " required
 
 filetype plugin indent on     " required!
 
