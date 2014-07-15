@@ -24,6 +24,8 @@ Plugin 'The-NERD-tree'
 Plugin 'rails.vim'
 Plugin 'snipmate-snippets'
 Plugin 'scratch.vim'
+Plugin 'desert-warm-256'
+Plugin 'github-theme'
 
 call vundle#end()            " required
 
@@ -32,7 +34,7 @@ filetype plugin indent on     " required!
 set tabstop=2
 set shiftwidth=2
 syntax enable
-colorscheme desert
+colorscheme desert-warm-256
 set softtabstop=2
 set expandtab
 set number
@@ -40,8 +42,8 @@ set history=1000
 
 set wildmenu
 
-set list
-set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
+"set list
+" set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 
 set showmatch
 map ,b :CtrlPBuffer<CR>
