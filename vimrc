@@ -15,6 +15,7 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-markdown'
 Plugin 'Shougo/neocomplcache'
 Plugin 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet-snippets'
 Plugin 'Gundo'
 Plugin 'Markdown'
 Plugin 'ack.vim'
@@ -26,6 +27,7 @@ Plugin 'snipmate-snippets'
 Plugin 'scratch.vim'
 Plugin 'desert-warm-256'
 Plugin 'github-theme'
+Plugin 'fatih/vim-go'
 
 call vundle#end()            " required
 
@@ -34,6 +36,7 @@ filetype plugin indent on     " required!
 set tabstop=2
 set shiftwidth=2
 syntax enable
+highlight Comment cterm=italic
 colorscheme desert-warm-256
 set softtabstop=2
 set expandtab
@@ -125,3 +128,5 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
             set conceallevel=2 concealcursor=i
         endif
      " }
+
+"highlight Comment cterm=italic
