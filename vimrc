@@ -48,6 +48,7 @@ set wildmenu
 "set list
 " set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 
+
 set showmatch
 map ,b :CtrlPBuffer<CR>
 map \| :NERDTreeToggle<CR>
