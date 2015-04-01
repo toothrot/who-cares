@@ -27,7 +27,11 @@ Plugin 'snipmate-snippets'
 Plugin 'scratch.vim'
 Plugin 'desert-warm-256'
 Plugin 'github-theme'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'fatih/vim-go'
+Plugin 'rizzatti/dash.vim'
+Plugin 'wting/rust.vim'
+Bundle 'slim-template/vim-slim.git'
 
 call vundle#end()            " required
 
