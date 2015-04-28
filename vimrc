@@ -23,7 +23,6 @@ Plugin 'coffee-check.vim'
 Plugin 'vim-coffee-script'
 Plugin 'The-NERD-tree'
 Plugin 'rails.vim'
-Plugin 'snipmate-snippets'
 Plugin 'scratch.vim'
 Plugin 'desert-warm-256'
 Plugin 'github-theme'
@@ -46,6 +45,7 @@ set softtabstop=2
 set expandtab
 set number
 set history=1000
+set linebreak
 
 set wildmenu
 
@@ -57,6 +57,8 @@ set showmatch
 map ,b :CtrlPBuffer<CR>
 map \| :NERDTreeToggle<CR>
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+let g:ctrlp_clear_cache_on_exit = 1
 
 " neocomplcache {
         let g:acp_enableAtStartup = 0
