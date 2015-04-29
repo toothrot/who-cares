@@ -30,6 +30,8 @@ Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'fatih/vim-go'
 Plugin 'rizzatti/dash.vim'
 Plugin 'wting/rust.vim'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/gem-ctags'
 Bundle 'slim-template/vim-slim.git'
 
 call vundle#end()            " required
