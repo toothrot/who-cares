@@ -32,6 +32,7 @@ Plugin 'rizzatti/dash.vim'
 Plugin 'wting/rust.vim'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/gem-ctags'
+Plugin 'toothrot/vim-rspec'
 Bundle 'slim-template/vim-slim.git'
 
 call vundle#end()            " required
@@ -139,3 +140,10 @@ let g:ctrlp_clear_cache_on_exit = 1
      " }
 
 "highlight Comment cterm=italic
+
+let g:rspec_runner = "os_x_iterm"
+" RSpec.vim mappings
+map ,t :call RunCurrentSpecFile()<CR>
+map ,s :call RunNearestSpec()<CR>
+map ,l :call RunLastSpec()<CR>
+map ,a :call RunAllSpecs()<CR>
