@@ -34,6 +34,7 @@ Plugin 'tpope/gem-ctags'
 Plugin 'toothrot/vim-rspec'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'vimoutliner/vimoutliner'
 Bundle 'slim-template/vim-slim.git'
 
 call vundle#end()            " required
@@ -148,3 +149,4 @@ map ,t :call RunCurrentSpecFile()<CR>
 map ,s :call RunNearestSpec()<CR>
 map ,l :call RunLastSpec()<CR>
 map ,a :call RunAllSpecs()<CR>
+syntax on
