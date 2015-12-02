@@ -54,6 +54,8 @@ set linebreak
 
 set wildmenu
 
+set directory=~/tmp,/var/tmp,/tmp
+
 "set list
 " set listchars=tab:,.,trail:.,extends:#,nbsp:. " Highlight problematic whitespace
 
